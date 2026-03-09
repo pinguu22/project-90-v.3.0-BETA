@@ -60,11 +60,10 @@ body {
   width: 58px;
   height: 58px;
   border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
+  display: grid;
+  place-items: center;
   font-weight: 900;
+  font-size: 24px;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: white;
   box-shadow: 0 0 22px rgba(255, 107, 44, 0.35);
