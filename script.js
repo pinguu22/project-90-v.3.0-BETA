@@ -376,6 +376,7 @@ function updateUI() {
   updateVersionInfo();
   updateTodayWorkout();
   updateTodayStatuses();
+  renderHeatmap();
 }
 
 function addCheckIn(personKey, pointsToAdd) {
