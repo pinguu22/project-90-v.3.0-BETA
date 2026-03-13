@@ -487,7 +487,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   updateUI();
   await loadRemoteState();
   updateUI();
-  setInterval(loadRemoteState, 5000);
+  setInterval(loadRemoteState, 10000);
 });
 
 function toggleAdminPanel(){
